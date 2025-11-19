@@ -68,9 +68,9 @@ I went through every step in this project in detail in my notebooks, explaining 
 
 The project is divided into three notebooks:  
 
-1. **`exploration_1.ipynb`** — Data exploration, baseline models, and initial feature analysis. This notebook was my first draft, explaining every step and why I chose it. At the end, I learned a lot but wasn’t completely satisfied with the results.  
-2. **`exploration_2.ipynb`** — Advanced preprocessing, feature engineering, and site-based models.  
-3. **`final_model.ipynb`** — Final models applied to the full training and test sets. This notebook trains on the complete dataset and generates predictions. Steps are mostly the same as in `exploration_2.ipynb`.  
+1. **`exploration_1.ipynb`** : Data exploration, baseline models, and initial feature analysis. This notebook was my first draft, explaining every step and why I chose it. At the end, I learned a lot but wasn’t completely satisfied with the results.  
+2. **`exploration_2.ipynb`** : Advanced preprocessing, feature engineering, and site-based models. This notebook also includes explanations for each step and method. 
+3. **`final_model.ipynb`** : Final models applied to the full training and test sets. This notebook trains on the complete dataset and generates predictions. Steps are mostly the same as in `exploration_2.ipynb`. It's the final clean notebook.
 
 ---
 
