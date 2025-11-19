@@ -35,7 +35,7 @@ There are shared columns between these files that are used to merge them (site_i
 
 ---
 
-## Key Steps / Methods
+## Key Steps and Methods
 
 I went through every step in this project in detail in my notebooks, explaining the reasoning behind each method and step. Here’s a summary:  
 
@@ -78,15 +78,18 @@ The project is divided into three notebooks:
 
 To reproduce the final predictions for the ASHRAE Energy Prediction project, follow these steps:
 
-1. **Get the necessary files from this repository:**  
-   - `best_models_per_site.pkl` — best models per site from `exploration_2.ipynb`  
-   - `best_params_per_site.pkl` — best hyperparameters per site from `exploration_2.ipynb`  
+1. **Download the required model files from the `models/` folder in this repository:**
+   - `best_models_per_site.zip` : contains `best_models_per_site.pkl`
+   - `best_params_per_site.pkl` : best hyperparameters per site  
+   Unzip the `.zip` file so both `.pkl` files are available.
 
-2. **Run `final_model.ipynb`:**  
-   - This notebook trains the final site-specific models on the full training data using the provided best models and hyperparameters.  
-   - Predictions for the test dataset are generated and saved automatically.  
+2. **Run `final_model.ipynb`:**
+   - Ensure the notebook paths correctly reference the downloaded `.pkl` files.
+   - The notebook will retrain the final site-specific models on the full training data using the provided hyperparameters.
+   - It will then generate predictions for the test dataset and save the submission file.
 
-**Note:** You do not need to run `exploration_2.ipynb` to reproduce the final predictions, unless you want to explore or retrain the subset models yourself.
+**Note:**  
+You do not need to run `exploration_2.ipynb` to reproduce the final predictions, unless you want to explore or retrain the subset models yourself.
 
 ---
 
